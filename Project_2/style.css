@@ -1,0 +1,75 @@
+*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(17, 55, 209, 0.155);
+}
+
+@media (max-width: 500px) {
+    .head {
+        width: 150px;
+        height: 170px;
+      }
+    
+      .eyes,
+      .brows {
+        width: 100px;
+      }
+  
+    .eye {
+      width: 30px;
+      height: 15px;
+    }
+  
+    .brow {
+      width: 30px;
+      height: 12px;
+    }
+  
+    .nose {
+      width: 20px;
+      height: 15px;
+      margin-top: 40px;
+    }
+  
+    .mouth {
+      width: 45px;
+      height: 18px;
+      margin-top: 80px;
+    }
+  
+    .ears {
+      width: 150px;
+    }
+  
+    .ear {
+      width: 10px;
+      height: 20px;
+    }
+  
+    .hair {
+      width: 120px;
+      height: 50px;
+      margin-bottom: 100px;
+    }
+  
+    .hair-corner::before,
+    .hair-corner::after {
+      width: 6px;
+      height: 8px;
+      top: 30px;
+    }
+  
+    .text {
+      font-size: 15px;
+    }
+  }
+
+  

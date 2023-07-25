@@ -1,0 +1,20 @@
+@keyframes slideInUP{
+    from{
+        transform: translateY(0px);
+    }
+
+    to{
+        transform: translateY(-250px);
+    }
+}
+
+.text{
+    z-index: -2;
+    position: absolute;
+    font-size: 35px;
+    color: rgb(255, 54, 54);
+}
+
+.head:hover .text{
+    animation: slideInUP 1s ease-out 0s normal both;
+}
